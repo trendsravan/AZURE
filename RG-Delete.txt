@@ -1,0 +1,4 @@
+#!/bin/bash
+############# DELEATING  ###############
+echo "Deleating the Azure Resource Group"
+az group delete -n AA-RG1 --yes
